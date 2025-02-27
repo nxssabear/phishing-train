@@ -13,8 +13,7 @@ div.menu ul {
 }
 
 div.menu ul li {
-    float: none;
-    display: inline;
+    display: flex;
 }
 
 div.menu ul li a {

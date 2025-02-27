@@ -8,10 +8,13 @@ div.menu ul {
     padding: 0;
     overflow: hidden;
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
 }
 
 div.menu ul li {
-    float: center;
+    float: none;
+    display: inline;
 }
 
 div.menu ul li a {

@@ -13,7 +13,7 @@ div.menu ul {
 }
 
 div.menu ul li {
-    display: flex;
+    display: inline;
 }
 
 div.menu ul li a {

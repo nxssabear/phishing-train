@@ -13,11 +13,11 @@ div.menu ul {
 }
 
 div.menu ul li {
-    display: inline;
+    display: flex;
 }
 
 div.menu ul li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;

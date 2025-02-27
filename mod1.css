@@ -1,13 +1,14 @@
-body {
-    background-color: bisque;
-
+h1 {
+    background-color: rbg(235, 235, 235);
+    font-family: 'Patrick Hand', cursive;
 }
+
 div.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: rgb(235, 235, 235);
 }
 
 div.menu ul li {
@@ -27,8 +28,9 @@ div.menu ul li a:hover {
     background-color: whitesmoke;
 }
 
-h1 {
-    background-color: lightblue;
-    font-family: 'Gochi Hand', cursive;
-    color: white;
+ul {
+    font-style: italic;
+    font-family: 'Kalam', cursive;
+    border-color: rgb(235, 235, 235);
+    border-style: solid;
 }

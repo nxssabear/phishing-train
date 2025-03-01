@@ -42,3 +42,8 @@ h1 {
     text-align: center;
     color: black; 
 }
+
+p {
+    text-align: center;
+    border: none;
+}

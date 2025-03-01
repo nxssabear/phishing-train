@@ -52,18 +52,20 @@ p{
 ul.star-list {
     list-style-type: none;
     padding: 0;
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 ul.star-list li {
-    display: inline-block;
+    display: block;
     position: relative;
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     text-align: left;
+    width: 100%;
+    max-width: 500px;
 }
 
 ul.star-list li::before {
@@ -71,22 +73,4 @@ ul.star-list li::before {
     position: absolute;
     left: 0;
     color: gold;
-}
-
-/* Center tips list */
-ul.tips-list {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-ul.tips-list li {
-    display: inline-block;
-    position: relative;
-    padding-left: 1.5em;
-    margin-bottom: 0.5em;
-    text-align: left;
 }

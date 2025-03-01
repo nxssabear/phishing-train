@@ -32,6 +32,7 @@ div.menu ul li a {
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 }
 
 div.menu ul li a:hover {
@@ -41,6 +42,5 @@ div.menu ul li a:hover {
 ul {
     font-style: italic;
     font-family: 'Kalam', cursive;
-    border-color: rgb(235, 235, 235);
     border-style: solid;
 }

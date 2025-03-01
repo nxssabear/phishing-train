@@ -26,6 +26,7 @@ div.menu ul li a {
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 }
 
 div.menu ul li a:hover {

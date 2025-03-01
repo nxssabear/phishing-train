@@ -56,9 +56,11 @@ ul.star-list {
 }
 
 ul.star-list li {
+    display: inline-block;
     position: relative;
     padding-left: 1.5em;
     margin-bottom: 0.5em;
+    text-align: left;
 }
 
 ul.star-list li::before {

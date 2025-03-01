@@ -1,0 +1,37 @@
+ /*
+ body{
+
+}
+ */
+
+ div.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+}
+
+div.menu ul li{
+   display: flex;
+}
+
+div.menu ul li a{
+   display: inline-block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: 'Indie Flower', cursive;
+   }
+
+div.menu ul li a:hover{
+   background-color: whitesmoke;
+}
+
+h1 {
+   background-color: rbg(211, 134, 255);
+   font-family: 'Kalam', cursive;
+}

@@ -9,14 +9,16 @@ div.menu ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
 }
 
 div.menu ul li {
-    float: left;
+    display: flex;
 }
 
 div.menu ul li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;

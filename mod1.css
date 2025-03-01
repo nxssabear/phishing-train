@@ -2,6 +2,7 @@ body {
     background-color: rgb(207, 169, 230);
     margin: 0;
     padding: 0;
+    border: none;
 }
 
  div.menu ul{
@@ -12,10 +13,12 @@ body {
      background-color: rgb(81, 44, 104);
      display: flex;
      justify-content: center;
+     border: none;
  }
 
 div.menu ul li{
     display: flex;
+    border: none;
 }
 
 div.menu ul li a{
@@ -26,6 +29,7 @@ div.menu ul li a{
     text-decoration: none;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
+    border: non;
     }
 
 div.menu ul li a:hover{

@@ -41,6 +41,8 @@ h1 {
     font-family: 'Kalam', cursive;
     text-align: center;
     color: black; 
+    border: none;
+    font-weight: bold;
 }
 
 p {

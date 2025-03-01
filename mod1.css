@@ -1,31 +1,24 @@
-h1 {
-    background-color: rbg(235, 235, 235);
-    font-family: 'Patrick Hand', cursive;
-    text-align: center;
-    color: black;
-}
-
 body {
     background-color: rgb(207, 169, 230);
     margin: 0;
     padding: 0;
 }
 
-div.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(81, 44, 104);
+ div.menu ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: rgb(81, 44, 104);
+     display: flex;
+     justify-content: center;
+ }
+
+div.menu ul li{
     display: flex;
-    justify-content: center;
 }
 
-div.menu ul li {
-    display: flex;
-}
-
-div.menu ul li a {
+div.menu ul li a{
     display: inline-block;
     color: black;
     text-align: center;
@@ -33,14 +26,15 @@ div.menu ul li a {
     text-decoration: none;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
-}
+    }
 
-div.menu ul li a:hover {
+div.menu ul li a:hover{
     background-color: whitesmoke;
 }
 
-ul {
-    font-style: italic;
+h1 {
+    background-color: rbg(211, 134, 255);
     font-family: 'Kalam', cursive;
-    border-style: solid;
+    text-align: center;
+    color: black; 
 }

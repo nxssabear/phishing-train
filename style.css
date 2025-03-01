@@ -4,8 +4,10 @@
     padding: 0;
 }
 
-li {
+u.contact-info {
     text-align: center;
+    list-style-type: none;
+    padding: 0;
 }
     
 
@@ -51,4 +53,5 @@ h2 {
 
 p {
    text-align: center;
+   font-family: 'Patrick Hand', cursive;
 }

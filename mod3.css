@@ -51,3 +51,11 @@ h3 {
 h2{
     text-align: center;
 }
+
+.image-container {
+    text-align: center;
+}
+
+.imgae-container img {
+    display: inline-block;
+}

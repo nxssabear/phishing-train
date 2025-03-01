@@ -1,6 +1,8 @@
 h1 {
     background-color: rbg(235, 235, 235);
     font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    color: black;
 }
 
 div.menu ul {

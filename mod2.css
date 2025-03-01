@@ -34,4 +34,6 @@ div.menu ul li a:hover{
 h1 {
     background-color: rbg(211, 134, 255);
     font-family: 'Kalam', cursive;
+    text-align: center;
+    color: black; 
 }

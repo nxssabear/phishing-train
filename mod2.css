@@ -43,6 +43,7 @@ p{
     text-align: center;
 }
 
+/* Star list styling */
 ul.star-list {
     list-style-type: none;
     padding: 0;
@@ -60,4 +61,10 @@ ul.star-list li::before {
     position: absolute;
     left: 0;
     color: gold;
+}
+
+/* Sublist styling */
+ul.star-list ul {
+    list-style-type: disc; /* Change to disc for sublist */
+    padding-left: 1.5em; /* Indent sublist */
 }

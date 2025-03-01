@@ -1,14 +1,16 @@
-body {
+ /*body {
     background-color: bisque;
     margin: 0;
     padding: 0;
 }
+    */
+    
 div.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: rgb(235, 235, 235);
     display: flex;
     justify-content: center;
 }

@@ -34,4 +34,5 @@ h1 {
     font-family: 'Gochi Hand', cursive;
     color: white;
     text-align: center;
+    justify-content: center;
 }
